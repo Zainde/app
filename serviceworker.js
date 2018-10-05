@@ -6,13 +6,13 @@ self.addEventListener("install", function(e) {
     console.log("Service Worker Installed");
     e.waitUntil(
         caches.open('AppTest').then(function(cache) {
-          console.log("test1");
             return cache.addAll([
-                '/',
+                // '/',
                 '/index.html',
                 // '/resources/css/style.css',
                 '/app.js'
             ]);
+            console.log("test1");
         })
     );
 });
