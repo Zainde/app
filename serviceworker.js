@@ -8,7 +8,6 @@ self.addEventListener("install", function(e) {
                 // '/resources/css/style.css',
                 './app.js'
             ]);
-            console.log("test1");
         })
     );
 });
