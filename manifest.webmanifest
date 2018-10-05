@@ -3,7 +3,7 @@
   "dir": "rtl",
   "lang": "en-US",
   "short_name": "AT",
-  "start_url": "http://alex6880.apache.techcollege.dk/index.html",
+  "start_url": "https://rawgit.com/Zainde/app/master/index.html",
   "display": "fullscreen",
   "orientation": "any",
   "background_color": "#fff",
