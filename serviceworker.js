@@ -7,9 +7,10 @@ self.addEventListener("install", function(e) {
     e.waitUntil(
         caches.open('AppTest').then(function(cache) {
             return cache.addAll([
+              console.log("test");
                 '/',
                 '/index.html',
-                // '/resources/css/style.css',
+                '/resources/css/style.css',
                 '/app.js'
             ]);
         })
