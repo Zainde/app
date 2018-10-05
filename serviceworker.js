@@ -6,7 +6,9 @@ self.addEventListener("install", function(e) {
                 // '/',
                 './index.html',
                 // '/resources/css/style.css',
-                './app.js'
+                './app.js',
+                './android-icon-144x144.png'
+
             ]);
         })
     );
