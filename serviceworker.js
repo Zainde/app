@@ -1,16 +1,12 @@
-/*
- * Installer Service Worker
- * Lytter efter install event og tilføjer App Shell filer til cache
- */
 self.addEventListener("install", function(e) {
     console.log("Service Worker Installed");
     e.waitUntil(
         caches.open('AppTest').then(function(cache) {
             return cache.addAll([
                 // '/',
-                '/index.html',
+                './index.html',
                 // '/resources/css/style.css',
-                '/app.js'
+                './app.js'
             ]);
             console.log("test1");
         })
